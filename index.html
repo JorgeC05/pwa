@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximun-scale= 1.0, user-scalable = no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PWA - Jorge Cortés</title>
+    <!-- Favicon 120x120 px -->
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/png">
+    <!-- Meta etiquetas para la PWA -->
+    <meta name="theme-color" content="#fb314e"> <!-- define el color de la app -->
+    <meta name="MobileOptimized" content="width"> <!-- Configurar para MOBILE -->
+    <meta name="HandheldFriendly" content="true"> <!-- Configurar para MOBILE -->
+    <meta name="apple-mobile-web-app-capable" content="yes"> <!-- Configurar para Apple -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"> <!-- Configurar para Apple -->
+    <link rel="apple-touch-icon" href="./img/favicon.png"> <!-- Configurar para Apple -->
+    <link rel="apple-touch-startup-image" href="./img/favicon.png"> <!-- Configurar para Apple -->
+    <!-- **********MANIFIESTO*********** -->
+    <link rel="manifest" href="./manifest.json">
+    <!-- estilos css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+
+    </script>
+</head>
+
+<body>
+    <header id="main-header">
+        <div class="container">
+            <div id="logo">
+                <h1>Jorge Cortés PWA</h1>
+            </div>
+            <div id="menu">
+                <ul>
+                    <li><a href="#main-header">Inicio</a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#videos">Videos</a></li>
+                    <li><a href="#footer">Contacto</a></li>
+                </ul>
+            </div>
+            <!--End Menú -->
+        </div>
+        <!--End Container -->
+    </header>
+    <div class="clearfix"></div>
+
+    <div id="slider">
+        <div class="container">
+            <h2>Desarrollador Web y Emprendedor</h2>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h2 class="subheader">Servicios</h2>
+            <div class="service">
+                <img src="img/1.png" alt="">
+                <h3>Desarrollo Web</h3>
+                <p>
+                    Ofrezco Servicios de Desarrollo Web moderno con las mejores tecnologías Web
+                </p>
+            </div>
+            <div class="service">
+                <img src="img/2.png" alt="">
+                <h3>Diseño Web</h3>
+                <p>
+                    Diseño de Sitios y Aplicaciones Web Moderno, Limpio y Atractivo para tus clientes
+                </p>
+            </div>
+            <div class="service">
+                <img src="img/3.png" alt="">
+                <h3>Mentoria</h3>
+                <p>
+                    Puedo ser tu Mentor o Profesor para Enseñarte Desarrollo y Programación Web Moderna
+                </p>
+            </div>
+        </div>
+        <!--End Container -->
+    </div>
+    <!--End Servicios -->
+
+    <div class="clearfix"></div>
+
+    <div id="videos">
+        <div class="container">
+            <h2 class="subheader">Videos</h2>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/BgFEH46C_eY" frameborder="0" allow="autoplay; encrypted-media"
+                    allowfullscreen></iframe>
+                <p>
+                    Bienvenido al Máster en JavaScript, en el que aprenderemos todo lo necesario para dominar el
+                    lenguaje de programación más popular que existe actualmente.
+                </p>
+            </div>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/YJI9dlG9eUE" frameborder="0" allow="autoplay; encrypted-media"
+                    allowfullscreen></iframe>
+                <p>
+                    Bienvenido al Máster en JavaScript, en el que aprenderemos todo lo necesario para dominar el
+                    lenguaje de programación más popular que existe actualmente.
+                </p>
+            </div>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/qGpjnYZtmf8" frameborder="0" allow="autoplay; encrypted-media"
+                    allowfullscreen></iframe>
+                <p>
+                    Bienvenido al Máster en JavaScript, en el que aprenderemos todo lo necesario para dominar el
+                    lenguaje de programación más popular que existe actualmente.
+                </p>
+            </div>
+        </div>
+    </div> <!-- End Videos -->
+
+    <div class="clearfix"></div>
+
+    <footer id="footer">
+        <div class="container">
+            <h2 class="subheader">Contacto</h2>
+            <p>
+                Enviame un Mensaje en cualquiera de estas Redes Sociales :)
+            </p>
+            <ul id="networks">
+                <li><a href="#"><img src="img/twitter.png" alt=""></a></li>
+                <li><a href="#"><img src="img/facebook.png" alt=""></a></li>
+                <li><a href="#"><img src="img/instagram.png" alt=""></a></li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
